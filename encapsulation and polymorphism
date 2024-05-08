@@ -1,0 +1,24 @@
+#encapsulation
+class demo():
+    __a=7 #private
+    _b=9  #public
+    print(__a)
+    print(_b)
+
+class demo():
+     def __int__(self,a,b):
+          self.__a=a
+          self._b=b
+class demo2(demo):
+        def output(self):
+            print(self.__a)
+            d=demo2(3,4)
+            d.output()
+
+#polymorphism
+def add(a,b):
+    print(a+b)
+add(1,2)
+add('a','b')
+add([34,4],[9,7])
+add((2,5),(7,9))
