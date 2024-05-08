@@ -1,0 +1,59 @@
+#string
+a = 'asha'
+b = "asha"
+c = '''asha'''
+print(type(a),type(b),type(c))
+
+#lower
+str = "ASHA"
+print(str.lower())
+
+#upper
+str = "ASHA"
+print(str.upper())
+
+#endswith()
+python ="python language"
+print(python.endswith("language"))
+
+#startswith()
+python ="python language"
+print(python.startswith("python"))
+
+#replace()
+python="python language"
+print(python.replace("language","programming"))
+
+#index()
+python="python language"
+print(python.index("python"))
+
+#find
+python="python language"
+print(python.find("asha"))
+
+#remove prefix
+python="python language"
+print(python.removeprefix("python"))
+
+#remove suffix
+python="python language"
+print(python.removesuffix("python"))
+
+#split()
+python=("python language")
+print(python.split())
+
+#strip
+python="  python language  "
+print("python")
+print(len(python))
+print(python.strip())
+v=python.lstrip()
+print(len(v))
+v=python.rstrip()
+print(len(v))
+
+#reverse string
+str = "python"
+print(str[::-1])
