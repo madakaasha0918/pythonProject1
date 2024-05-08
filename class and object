@@ -1,0 +1,12 @@
+#class
+class python():
+    a=9
+    print(a)
+
+#class and object
+class python():
+    a=9
+    def output(self):
+        print(self.a)
+b=python()
+b.output()
