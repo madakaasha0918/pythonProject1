@@ -1,0 +1,11 @@
+def reverse_string(input_str):
+    words = input_str.split()
+    reversed_words = words[::-1]
+    reversed_str = ''.join(reversed_words)
+    return reversed_str
+
+input_str = "my name is asha"
+output_str = reverse_string(input_str)
+print(output_str)
+
+
